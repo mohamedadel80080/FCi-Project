@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="Bioinformatics tool for genomic data" />
+    <link rel="stylesheet" href="{% static 'CSS/profile.css' %}">
+    <link rel="stylesheet" href="{% static 'CSS/all.min.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Bio Assistant</title>
+
+<body>
+    {% block content %}
+    <div class="NavBar">
+        <a href="{% url 'Grad' %}"><button class="logout"><b>Log out</b><i class="fa fa-sign-out"></i></button></a>
+    </div>
+    <h1><b>Profile</b></h1>
+    <div class="major" id="major"></div>
+    <div class="leftContent">
+        <h2><b>Hello </b> {{name.major}} </h2>
+        <p>This is your profile page. You can see the progress you've made with your work and manage your projects or
+            assigned tasks</p>
+        <a href="{% url 'welcome2' %}"><button class="home"><b>Home</b></button></a>
+    </div>
+    <div class="midContent">
+
+        <span class="det"><b>Details</b></span>
+       
+        <span class="na"><b>Name:</b> {{name.username}} </span>
+        <div class="name" id="name"  type="text" required placeholder="Username" max_length=50></div>
+        <span class="em"><b>Email:</b> {{name.email}} </span>
+        <div class="email" id="email"  type="password" required placeholder="Password" max_length=20></div>
+        <div class="icons" style="margin: 30px 0;">
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+        </div>
+    </div>
+    <div class="rightContent">
+        <img src="{% static 'Pictures/userr.png' %}" alt="">
+        <span class="task">My Tasks</span>
+        <div class="mytasks" id="mytasks"></div>
+    </div>
+    {% endblock content %}
+</body>
+</head>
+
+</html>

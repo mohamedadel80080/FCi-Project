@@ -1,0 +1,109 @@
+body {
+    background-image: url("../Pictures/background1.jpg");
+    background-size: cover;
+
+
+}
+
+.title {
+    padding: 19px;
+    color: #1C768F;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -17px;
+    left: 24px;
+    z-index: 1;
+
+}
+
+.logo {
+    width: 3%;
+    position: absolute;
+    left: 1px;
+    top: -3px;
+    transform: rotate(31deg);
+    border-radius: 273px;
+    z-index: 1;
+}
+
+
+
+.welcome {
+    position: absolute;
+    top: 184px;
+    left: 71px;
+    font-size: 55px;
+    color: #1C768F;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    position: absolute;
+    top: 287px;
+    left: 87px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: #2c7c92;
+    width: 603px;
+}
+
+
+
+.signup {
+    background-color: #fa991c;
+    position: absolute;
+    bottom: 168px;
+    left: 126px;
+    width: 142px;
+    height: 38px;
+    border-radius: 35px;
+    color: #ffffff;
+    font-size: large;
+    font-family: monospace;
+    border: none;
+    cursor: pointer;
+
+}
+
+.login {
+    background-color: #fa991c;
+    position: absolute;
+    bottom: 168px;
+    left: 317px;
+    width: 142px;
+    height: 38px;
+    border-radius: 35px;
+    color: #ffffff;
+    font-size: large;
+    font-family: monospace;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.contactus {
+    font-size: large;
+    font-family: monospace;
+    background-color: #fa991c;
+    color: #ffffff;
+    position: absolute;
+    left: 970px;
+    top: 16px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rightnavbar {
+    position: absolute;
+    left: 400px;
+    top: -7px;
+}

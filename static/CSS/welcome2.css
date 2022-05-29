@@ -1,0 +1,193 @@
+body{
+    background-image: url("../Pictures/background1.jpg");
+    background-size:cover;
+    
+    
+}
+.title {
+    padding: 19px;
+    color:#1C768F;
+    font-size: 20px;
+    font-family:'Pacifico', cursive;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -17px;
+    left: 24px;
+    z-index: 1;
+
+}
+.logo {
+    width: 3%;
+    position: absolute;
+    left: 1px;
+    top: -3px;
+    transform: rotate(31deg);
+    border-radius: 273px;
+    z-index: 1;
+}
+
+
+
+.welcome{
+    position: absolute;
+    top: 184px;
+    left: 71px;
+    font-size: 55px;
+    color: #1C768F;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: 'Pacifico', cursive;
+}
+p {
+    position: absolute;
+    top: 287px;
+    left:87px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: #2c7c92;
+    width: 603px;
+}
+
+
+
+.process{
+    background-color: #fa991c;
+    position: absolute;
+    bottom: 99px;
+    left: 79px;
+    width: 196px;
+    height: 82px;
+    border-radius: 35px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    cursor: pointer;
+   
+}
+
+
+
+.faq{
+    font-size: large;
+    font-family: monospace;
+    background-color: #fa991c;
+    color: #ffffff;
+    position: absolute;
+    left: 840px;
+    top: 16px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    z-index: 1;
+    cursor: pointer;
+}
+.profile{
+    font-size: large;
+    font-family: monospace;
+    background-color: #fa991c;
+    color: #ffffff;
+    position: absolute;
+    left: 700px;
+    top: 16px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rightnavbar {
+    position: absolute;
+    left: 400px;
+    top:-7px;
+}
+
+@media (min-width:300px) and (max-width:690px){
+    .title {
+        padding: 19px;
+        color: #1C768F;
+        font-size: 10px;
+        font-family: 'Pacifico', cursive;
+        letter-spacing: 2px;
+        position: absolute;
+        top: -20px;
+        left: 0px;
+        z-index: 1;
+    }
+    .logo {
+        width: 6%;
+        position: absolute;
+        left: 1px;
+        top: -2px;
+        transform: rotate(31deg);
+        border-radius: 273px;
+        z-index: 1;
+    }
+    .profile {
+        font-size: 10px;
+        font-family: monospace;
+        background-color: #fa991c;
+        color: #ffffff;
+        position: absolute;
+        left: -234px;
+        top: 10px;
+        width: 53px;
+        height: 23px;
+        border: none;
+        border-radius: 35px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .faq {
+        font-size: 10px;
+        font-family: monospace;
+        background-color: #fa991c;
+        color: #ffffff;
+        position: absolute;
+        left: -163px;
+        top: 10px;
+        width: 53px;
+        height: 23px;
+        border: none;
+        border-radius: 35px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .welcome {
+        position: absolute;
+        top: 69px;
+        left: 8px;
+        font-size: 20px;
+        color: #1C768F;
+        font-style: italic;
+        letter-spacing: 2px;
+        font-family: 'Pacifico', cursive;
+    }
+    p {
+        position: absolute;
+        top: 93px;
+        left: 13px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 10px;
+        color: #2c7c92;
+        width: 269px;
+    }
+    .process {
+        background-color: #fa991c;
+        position: absolute;
+        top: 182px;
+        left: 79px;
+        width: 102px;
+        height: 32px;
+        border-radius: 35px;
+        color: #ffffff;
+        font-size: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        border: none;
+        cursor: pointer;
+    }
+
+}

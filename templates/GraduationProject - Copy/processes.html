@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Bioinformatics tool for genomic data" />
+    <link rel="stylesheet" href="{% static 'CSS/processes.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Lobster&display=swap" rel="stylesheet">
+    <title>Bio Assistant</title>
+
+<body>
+    <div>
+        <div class="NavBar">
+            <span class="title"><b> Bio Assistant</b></span>
+            <img class="logo" src="{% static 'Pictures/logo.jpg' %}" alt="">
+            <a href="{% url 'welcome2' %}"><button class="Home"><b>Home</b></button></a>
+
+        </div>
+        <div class="content">
+            <p><b>Processes that apply in biological data such as DNA, RNA and proteins help us to understand content of
+                    these data and their mechanism</b></p>
+            <img class="sidePic" src="{% static 'Pictures/sidePic.jpg' %}" alt="">
+
+        </div>
+
+    </div>
+
+    <div>
+        <div class="ab">
+            <a href="{% url 'rna' %}"><button><b>RNA</b></button></a>
+            <a href="{% url 'dna' %}"><button><b>DNA</b></button></a>
+            <a href="{% url 'protein' %}"><button><b>Protein</b></button></a>
+        </div>
+
+    </div>
+
+
+
+</body>
+</head>
+
+</html>

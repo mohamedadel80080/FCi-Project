@@ -1,0 +1,268 @@
+
+body{
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.NavBar button{
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    width: 82px;
+    height: 40px;
+    border-color: orange;
+    color: #032539;
+    background-color: #fa991c;
+    font-style: italic;
+    border-radius: 95px;
+    font-size: 15px;
+
+}
+.leftContent {
+    width: 317px;
+    height: 400px;
+    position: absolute;
+    top: 174px;
+
+
+}
+.leftContent h2{
+    font-size: 40px;
+    color: #032539;
+    position: relative;
+    top: -5px;
+}
+.leftContent p{
+    font-size: 30px;
+    width: 318px;
+    color: #032539;
+}
+.leftContent button{
+    border-color: white;
+    width: 157px;
+    height: 57px;
+    font-size: 20px;
+    color: white;
+    background-color: #032539;
+    border-radius: 61px;
+}
+.midContent{
+    position: absolute;
+    left:45%;
+    top: 174px;
+    width: 317px;
+    height: 400px;
+}
+.det{
+    font-size: 40px;
+    color: #032539;
+    top: 23px;
+    position: absolute;
+}
+.na{
+    position: absolute;
+    top: 111px;
+    font-size: 30px;
+    color:#032539;
+}
+.name{
+    height: 37px;
+    position: relative;
+    top: 153px;
+}
+.em{
+    position: absolute;
+    top: 210px;
+    font-size: 30px;
+    color:#032539;
+
+}
+.email{
+    height: 37px;
+    position: relative;
+    top: 216px;
+}
+.icons{
+    position: absolute;
+    top: 300px;
+    font-size: 20px;
+}
+.fa{
+    color: #032539;
+}
+h1{
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 50px;
+    color: #fa991c;
+}
+.major{
+    height: 40px;
+    position: relative;
+    top: -22px;
+    width: 306px;
+    left: 510px;
+}
+.rightContent{
+    background-color: #faa91c;
+    position: absolute;
+    right: 20px;
+    top: 174px;
+    width: 317px;
+    height: 400px;
+}
+.rightContent img {
+    width: 126px;
+    height: 118px;
+    position: relative;
+    left: 99px;
+    top: -53px;
+    border-radius: 76px;
+}
+.task{
+    color: #032539;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+    left: 100px;
+    position: absolute;
+    top: 94px;
+
+    
+}
+.rightContent div{
+    height: 271px;
+}
+@media (min-width:300px) and (max-width:850px){
+    .rightContent {
+        background-color: #faa91c;
+        position: absolute;
+        left: 50px;
+        top: 238px;
+        width: 204px;
+        height: 316px;
+    }
+    .rightContent img {
+        width: 102px;
+        height: 100px;
+        position: relative;
+        left: 52px;
+        top: -44px;
+        border-radius: 76px;
+    }
+    .task {
+        color: #032539;
+        font-size: 14px;
+        letter-spacing: 5px;
+        text-align: center;
+        left: 61px;
+        position: absolute;
+        top: 71px;
+    }
+    .rightContent div {
+        height: 208px;
+    }
+    .NavBar button {
+        position: absolute;
+        top: 4px;
+        right: 10px;
+        width: 53px;
+        height: 24px;
+        border-color: orange;
+        color: #032539;
+        background-color: #fa991c;
+        font-style: italic;
+        border-radius: 95px;
+        font-size: 9px;
+    }
+    h1 {
+        letter-spacing: 5px;
+        text-align: center;
+        font-size: 20px;
+        color: #fa991c;
+    }
+    .major {
+        height: 17px;
+        position: relative;
+        top: -11px;
+        width: 131px;
+        left: 48px;
+    }
+    .leftContent {
+        width: 135px;
+        height: 210px;
+        position: absolute;
+        top: 52px;
+        left: 10px;
+    }
+    .leftContent h2 {
+        font-size: 20px;
+        color: #032539;
+        position: relative;
+        top: -12px;
+    }
+    .leftContent p {
+        font-size: 10px;
+        width: 91px;
+        color: #032539;
+        position: absolute;
+        top: 20px;
+    }
+    .leftContent button {
+        border-color: white;
+        width: 59px;
+        height: 21px;
+        font-size: 10px;
+        color: white;
+        background-color: #032539;
+        border-radius: 61px;
+        position: absolute;
+        top: 100px;
+    }
+    .midContent {
+        width: 135px;
+        height: 210px;
+        position: absolute;
+        top: 52px;
+        left: 152px;
+    }
+    .det {
+        font-size: 20px;
+        color: #032539;
+        position: relative;
+        top: 3px;
+        left: 30px;
+    }
+    .na {
+        position: absolute;
+        top: 28px;
+        left: 33px;
+        font-size: 15px;
+        color: #032539;
+    }
+    .name {
+        height: 13px;
+        position: relative;
+        top: 19px;
+    }
+    .em {
+        position: absolute;
+        top: 56px;
+        font-size: 15px;
+        color: #032539;
+        left: 30px;
+    }
+    .email {
+        height: 13px;
+        position: relative;
+        top: 41px;
+    }
+    .icons {
+        left: 30px;
+        position: absolute;
+        top: 72px;
+        font-size: 10px;
+    }
+
+
+}

@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Bioinformatics tool for genomic data" />
+    <link rel="stylesheet" href="{% static 'CSS/rna.css' %}">
+    <link rel="stylesheet" href="{% static 'CSS/all.min.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Bio Assistant</title>
+
+<body>
+    <div class="NavBar">
+        <span class="title"><b> Bio Assistant</b></span>
+    </div>
+    <ul>
+        <li><a href="{% url 'welcome2' %}">Home</a></li>
+        <li><a href="{% url 'profile' %}">Profile</a></li>
+        <li><a href="faq.html">FAQS</a></li>
+        <li><a href="#"><i class="fa-solid fa-bars"></i>RNA</a>
+            <ul>
+                <li><a href="#">BackTranscribe</a></li>
+                <li><a href="#">Translation</a></li>
+                <li><a href="#">FindMutation</a></li>
+
+            </ul>
+        </li>
+    </ul>
+    <div class="content">
+        <button class="enterdata">Enter Data</button>
+        <p><b>Enter accession numbers, or Fasta sequences</b></p>
+        <textarea name="input" class="input" cols="30" rows="10" id="data"></textarea>
+        <button class="result">Results</button>
+        <form>
+            <input type="file" class="file" name="filename">
+            <input class="submit" type="submit">
+            <div class="o"></div>
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <button class="btn"><i class="fa fa-download"></i> Download</button>
+
+
+        </form>
+
+
+
+
+    </div>
+
+
+</body>
+</head>
+
+</html>

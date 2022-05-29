@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("../Pictures/loggin.jpeg");
+    background-size: cover;
+    overflow: hidden;
+
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 472px;
+    height: 409px;
+    background: #1C768F;
+    border-radius: 10px;
+    
+}
+.title {
+    padding: 19px;
+    color:#1C768F;
+    font-size: 20px;
+    font-family:'Pacifico', cursive;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -17px;
+    left: 24px;
+    z-index: 1;
+
+}
+.logo {
+    width: 3%;
+    position: absolute;
+    left: 1px;
+    top: -3px;
+    transform: rotate(31deg);
+    border-radius: 273px;
+   
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico';
+    letter-spacing: 5px;
+}
+
+.center form{
+    padding: 0 97px;
+    
+  
+}
+.username{
+    width: 280px;
+    height: 31px;
+    border-radius: 52px;
+    border:none;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+
+}
+
+
+.password{
+    width: 280px;
+    height: 31px;
+    border-radius: 52px;
+    border: none;
+    position: absolute;
+    top: 182px;
+    text-align: center;
+}
+
+.login{
+    position: absolute;
+    left: 170px;
+    top: 294px;
+    width: 148px;
+    height: 35px;
+    border-radius: 31px;
+    color: #1C768F;
+    background-color: #ffffff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: monospace;
+}
+p{
+    position: absolute;
+    top: 321px;
+    left: 260px;
+    color: white;
+    font-weight: bold;
+    text-decoration:underline;
+    cursor: pointer;
+}

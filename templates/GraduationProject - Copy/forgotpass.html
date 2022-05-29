@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Bioinformatics tool for genomic data" />
+    <link rel="stylesheet" href="{% static 'CSS/forgotpass.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Bio Assistant</title>
+
+<body>
+    <div class="center">
+        <h1>Reset Password</h1>
+        <form method="POST">
+            <label class="firstlbl" for=""> <b>New Password</b></label>
+            <input class="new" type="Password" required placeholder="Password">
+            <label class="secondlbl" for=""> <b>Confirm New Password</b></label>
+            <input class="confirm" type="Password" required placeholder="Password">
+            <a href="welcome2.html"><button class="continue">Continue</button></a>
+            <a href="login.html"><button class="cancel">Cancel</button></a>
+            <img src="{% static 'Pictures/resetpass.jpeg'%}" alt="">
+
+        </form>
+    </div>
+
+
+</body>
+</head>
+
+</html>

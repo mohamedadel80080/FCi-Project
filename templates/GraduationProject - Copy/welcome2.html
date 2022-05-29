@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Bioinformatics tool for genomic data" />
+    <link rel="stylesheet" href="{% static 'CSS/welcome2.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Bio Assistant</title>
+
+<body>
+    <div class="NavBar">
+        <span class="title"><b> Bio Assistant</b></span>
+        <img class="logo" src="{% static 'Pictures/logo.jpg' %}" alt="">
+        <div class="rightnavbar">
+            <a href="{% url 'profile' %}"> <button class="profile"><b>Profile</b></button></a>
+            <a href="faq.html"> <button class="faq"><b>FAQS</b></button></a>
+
+        </div>
+
+    </div>
+    <div class="content">
+        <span class="welcome"><b>Welcome Back...</b></span>
+        <p><b> We help you to interact with biological data, extract useful information from it and helps you to apply
+                several molecular processes on it</b> </p>
+        <a href="{% url 'processes' %}"> <button class="process"><b>Processes</b></button></a>
+
+    </div>
+
+</body>
+</head>
+
+</html>

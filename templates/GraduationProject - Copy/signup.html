@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Bioinformatics tool for genomic data" />
+    <link rel="stylesheet" href="{% static 'CSS/signup.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Bio Assistant</title>
+</head>
+
+<body>
+    <span class="title"><b> Bio Assistant</b></span>
+    <img class="logo" src="{% static 'Pictures/logo.jpg' %}" alt="">
+    <div class="center">
+        <h1>Sign Up</h1>
+        <form action=" {% url 'user' %} " method="POST">
+            {% csrf_token %}
+            <input class="username" type="text" required placeholder="Username" name="Username" maxlength='50'>
+            <input class="email" type="email" required placeholder="E-mail" name="E-mail" maxlength='50'>
+            <input class="password" type="password" required placeholder="Password" name="Password" maxlength='10'>
+            <input class="major" type="text" required placeholder="Degree of education" name="Degree of education"
+                maxlength='20'>
+            <a href="{ % url 'welcome2' %}"><input class="signup" type="submit" value="Sign Up"></a>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
